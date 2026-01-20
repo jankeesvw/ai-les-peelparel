@@ -63,10 +63,6 @@ function teken() {
   ctx.fillStyle = speler.kleur;
   ctx.fillRect(speler.x, speler.y, speler.breedte, speler.hoogte);
 
-  // Teken instructies
-  ctx.fillStyle = 'white';
-  ctx.font = '20px Arial';
-  ctx.fillText('Gebruik pijltjes of WASD om te bewegen!', 20, 30);
 }
 
 // === GAME LOOP ===
