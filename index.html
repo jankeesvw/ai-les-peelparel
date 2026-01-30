@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mijn Game</title>
+  <title>Game Gallerij - Vibe Coding Les</title>
   <style>
     * {
       margin: 0;
@@ -12,22 +12,112 @@
     }
 
     body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
       min-height: 100vh;
-      background: #1a1a2e;
+      padding: 40px 20px;
     }
 
-    canvas {
-      border: 4px solid #e94560;
-      border-radius: 8px;
-      background: #16213e;
+    h1 {
+      text-align: center;
+      color: #e94560;
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .game-card {
+      background: #0f3460;
+      border-radius: 16px;
+      padding: 30px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+      border: 3px solid #e94560;
+    }
+
+    .game-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(233, 69, 96, 0.3);
+    }
+
+    .game-card .emoji {
+      font-size: 4rem;
+      margin-bottom: 15px;
+    }
+
+    .game-card h2 {
+      color: white;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .game-card p {
+      color: #a0a0a0;
+      margin-bottom: 20px;
+      font-size: 0.95rem;
+    }
+
+    .game-card a {
+      display: inline-block;
+      background: #e94560;
+      color: white;
+      text-decoration: none;
+      padding: 12px 30px;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .game-card a:hover {
+      background: #ff6b6b;
     }
   </style>
 </head>
 <body>
-  <canvas id="game" width="800" height="600"></canvas>
-  <script src="game.js"></script>
+  <h1>Game Gallerij</h1>
+
+  <div class="games">
+    <div class="game-card">
+      <div class="emoji">🐑</div>
+      <h2>Hoofdmap Game</h2>
+      <p>De originele game uit de hoofdmap</p>
+      <a href="game.html">Spelen</a>
+    </div>
+
+    <div class="game-card">
+      <div class="emoji">🐼</div>
+      <h2>Groep 7+8</h2>
+      <p>3D Nerd Panda Game met irritante muziek!</p>
+      <a href="projecten/groep7+8/game.html">Spelen</a>
+    </div>
+
+    <div class="game-card">
+      <div class="emoji">🍔</div>
+      <h2>Soof</h2>
+      <p>Verzamelgame met hamburgers en geluidseffecten</p>
+      <a href="projecten/soof/game.html">Spelen</a>
+    </div>
+
+    <div class="game-card">
+      <div class="emoji">🐍</div>
+      <h2>Soof-2</h2>
+      <p>Snake game met verschillende fruitsoorten</p>
+      <a href="projecten/soof-2/game.html">Spelen</a>
+    </div>
+
+    <div class="game-card">
+      <div class="emoji">🐕</div>
+      <h2>Soof en Nine</h2>
+      <p>Doolhof game met honden - 15 levels!</p>
+      <a href="projecten/soof-en-nine/game.html">Spelen</a>
+    </div>
+  </div>
 </body>
 </html>
