@@ -1,5 +1,7 @@
 # AI Les 2026
 
+![Screenshot](screenshot.png)
+
 Op basisschool De Peelparel heb ik AI lessen gegeven aan kinderen uit groep 5 t/m 8. De kinderen hebben hun eigen games gemaakt door te "vibe coden" - ze vertelden in gewone taal wat ze wilden en [Claude](https://claude.ai) hielp het te bouwen.
 
 Kinderen van 11 jaar maakten in 30 minuten een 3D game, from scratch! Vroeger was dit alleen weggelegd voor ervaren programmeurs. De kinderen hadden geen uitleg nodig en wilden eigenlijk niet meer stoppen.
