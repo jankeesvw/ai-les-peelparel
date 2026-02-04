@@ -6,7 +6,7 @@ Kinderen van 11 jaar maakten in 30 minuten een 3D game, from scratch! Vroeger wa
 
 ## De games
 
-Bekijk alle games op: https://jankeesvw.github.io/programmeer-les-blauw-schaap/
+Bekijk alle games op: https://jankeesvw.github.io/ai-les-peelparel/
 
 ## Techniek
 
